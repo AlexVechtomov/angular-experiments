@@ -13,12 +13,14 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
+import { SocialComponent } from './social/social.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    NavigateComponent
+    NavigateComponent,
+    SocialComponent
   ],
   imports: [
     BrowserModule,
